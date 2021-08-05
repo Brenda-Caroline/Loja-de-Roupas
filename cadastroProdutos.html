@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="meucss/styles.css">
+        <link href = "https://fonts.googleapis.com/css2? family = EB + Garamond & family = Ibarra + Real + Nova & family = PT + Serif & display = swap "rel =" stylesheet ">
+        <title>Minha página</title>
+
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cadastroProdutos.html">Cadastrar Produtos</a></li>
+                <li><a href="produtos.php"> Produtos </a></li>
+                <li><a href="funcionarios.php"> Funcionários </a></li>
+                <li><a href="clientes.php"> Clientes</a></li>
+            </ul>  
+        </nav>  
+        <div>
+        <h1> Cadastro de Produtos </h1>  
+
+        <form method="POST" action="cadastroProdutos.php"> 
+            <table>
+                <tr>
+                    <th>Nome:</th>
+                    <td><input type="text" name="nome" id="nome" placeholder="Digite o nome do produto"/></td>
+                </tr>
+                <tr>
+                    <th>Marca:</th>
+                    <td><input type="text" name="marca" id="marca" placeholder="Digite a marca do produto"/></td>
+                </tr>
+                <tr>
+                    <th>Modelo:</th>
+                    <td><input type="text" name="modelo" id="modelo" placeholder="Digite o modelo do produto"/></td>
+                </tr>
+                <tr>
+                    <th>Categoria:</th>
+                    <td>
+                        <input type="text" name="categoria" placeholder="Ex: Roupa, calçados, acess."/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Quantidade:</th>
+                    <td><input type="text" name="quantidade" id="quantidade" placeholder="Digite a quantidade"/></td>
+                </tr>
+                <tr>
+                    <th>Tamanho:</th>
+                    <td><input type="text" name="tamanho" placeholder="Ex: P, M, G, 36, 34"/></td>
+                </tr>
+                <tr>
+                    <th>Cor:</th>
+                    <td><input type="text" name="cor"placeholder="Digite a cor do produto"/></td>
+                </tr>
+                <tr>
+                    <th>Preço:</th>
+                    <td><input type="text" name="preco" placeholder="Digite o preço do produto"/></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>
+                        <input id="btnenviar" name="btnenviar" type="submit" value="Cadastrar" /></td>
+                </tr>
+                
+            </table>
+        </form>
+    </div>
+    </body>
+</html>
